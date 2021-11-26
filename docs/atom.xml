@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Instinct</title>
+  
+  
+  <link href="https://kagaricyan.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://kagaricyan.github.io/"/>
+  <updated>2022-02-15T06:51:09.960Z</updated>
+  <id>https://kagaricyan.github.io/</id>
+  
+  <author>
+    <name>kagari</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo + indigo主题搭建</title>
+    <link href="https://kagaricyan.github.io/2022/02/15/hexo/"/>
+    <id>https://kagaricyan.github.io/2022/02/15/hexo/</id>
+    <published>2022-02-15T06:15:07.000Z</published>
+    <updated>2022-02-15T06:51:09.960Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li>下载hexo starter模板，放到自己想放的目录，以后在此模板基础上配置编写 <code>https://github.com/hexojs/hexo-starter</code>  </li><li>下载主题到themes&#x2F;indigo下面 <code>https://github.com/yscoder/hexo-theme-indigo</code>  </li><li>hexo 版本改为4.0.0。(主题不兼容高版本)  </li><li>删除 <code>_config.landscape.yml</code>  </li><li>删除依赖 <code>&quot;hexo-theme-landscape&quot;: &quot;^0.0.3&quot;</code>(不然运行有报错)  </li><li>删除全局hexo(与本地版本不一致打包为空)  </li><li>主题全局搜索<code>href=&quot;javascript:;&quot;</code>, 全部删掉</li></ol>]]></content>
+    
+    
+    <summary type="html">纯手动hexo + indigo主题博客搭建，基于现有项目，避免命令报错文件夹非空</summary>
+    
+    
+    
+    
+  </entry>
+  
+</feed>
